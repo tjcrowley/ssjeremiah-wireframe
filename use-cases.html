@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>DEAD DOG STUDIOS | Use Cases</title>
+    <meta name="description" content="Current small projects and applied use cases led by Dead Dog Studios." />
+    <link rel="stylesheet" href="styles.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NFMN6EWQZ0"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-NFMN6EWQZ0');
+    </script>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <div class="logo-wrap">
+          <img src="logo.jpg" alt="Dead Dog Studios logo" class="logo-img" />
+          <div class="logo">DEAD DOG STUDIOS</div>
+        </div>
+        <a class="btn btn-outline" href="index.html">Home</a>
+      </nav>
+      <div class="container hero-content">
+        <p class="eyebrow">Use Cases</p>
+        <h1>Current small projects in active development.</h1>
+        <p>Examples of focused execution where strategy and hands-on delivery happen in parallel.</p>
+      </div>
+    </header>
+
+    <main class="section container">
+      <div class="grid-3">
+        <article class="card">
+          <h3>Valentine’s Conspiracy ARG Ops</h3>
+          <p>Campaign structure, content ops, and technical support for a live city-scale ARG experience.</p>
+          <p class="meta">Focus: live operations, narrative iteration, campaign reliability.</p>
+        </article>
+
+        <article class="card">
+          <h3>OpenClaw Automation Stack</h3>
+          <p>Designing practical agent workflows for messaging, scheduling, and ops tasks with clear controls.</p>
+          <p class="meta">Focus: orchestration, guardrails, and production-ready assistant behavior.</p>
+        </article>
+
+        <article class="card">
+          <h3>Private LLM Serving (vLLM + Ollama)</h3>
+          <p>Deploying self-hosted inference paths and routing strategies for better cost/performance control.</p>
+          <p class="meta">Focus: model serving, uptime, and secure infrastructure patterns.</p>
+        </article>
+
+        <article class="card">
+          <h3>Dead Dog Studios Site Platform</h3>
+          <p>Rapid buildout of a CTO-focused marketing site, portfolio updates, and conversion-oriented messaging.</p>
+          <p class="meta">Focus: positioning, content architecture, and iterative release cycles.</p>
+        </article>
+
+        <article class="card">
+          <h3>Barbary Coast Marine Web Presence</h3>
+          <p>Ongoing website and digital execution support with practical updates and maintenance.</p>
+          <p class="meta">Focus: dependable delivery and ongoing support cadence.</p>
+        </article>
+
+        <article class="card">
+          <h3>Inference Hub Product Stabilization</h3>
+          <p>Incremental hardening of auth, payments, and data flows for reliable app-platform deployment.</p>
+          <p class="meta">Focus: deployment reliability, Stripe flow integrity, and runtime stability.</p>
+        </article>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <small>© <span id="year"></span> DEAD DOG STUDIOS. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
